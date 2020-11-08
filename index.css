@@ -1,0 +1,23 @@
+.body {
+    font: 1em sans-serif;
+    font-size: 16px;
+    text-decoration-color: #5d5d5d;
+}
+
+.barra-superior {
+   background-color: rgb(237, 247, 152);
+}
+
+.botonAtras {
+    background-color: blue;
+    color: white;
+    border-radius: 3px;  
+}
+
+.botonAdelante {
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+    position: relative;
+    float: right;
+}
