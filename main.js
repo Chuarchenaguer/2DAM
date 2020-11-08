@@ -5,11 +5,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const step4Container = document.getElementById('step-4');
     
     
-    if (step1Container.style.display ==='') {
-        step2Container.style.display = 'none';
-        step3Container.style.display = 'none';
-        step4Container.style.display = 'none';
-    }
+    step1Container.style.display = '';
+    step2Container.style.display = 'none';
+    step3Container.style.display = 'none';
+    step4Container.style.display = 'none';
+    
 
     var h1 = document.createElement("h1");
     var parrafo = document.createElement("p");
@@ -23,10 +23,11 @@ document.addEventListener('DOMContentLoaded', () => {
     parrafo.style.textAlign = 'center';
     h1.style.font = '2em sans-serif';
     parrafo.style.font = '1em sans-serif';
+
 });
 
 
-/*buttons.forEach((button, index) => button.addEventListener('click', () => {
+/*    button.addEventListener('botonAdelante'.'click', () => {
     const step1Container = document.getElementById('step-1');
     const step2Container = document.getElementById('step-2');
     const step3Container = document.getElementById('step-3');
@@ -46,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }*/
 /*}));*/
 
-    /*document.addEventListener('botonAdelante'.click, () => {
+    /*document.addEventListener('botonAtras'.click, () => {
         const botonAtras = document.getElementsByClassName('botonAtras');
         const step1Container = document.getElementById('step-1');
         const step2Container = document.getElementById('step-2');
