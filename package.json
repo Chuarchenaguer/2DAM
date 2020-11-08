@@ -1,0 +1,19 @@
+{
+  "name": "ae3",
+  "version": "0.0.1",
+  "description": "Simple Page Application en 4 pasos, dónde se va a rellenar un formulario de solicitud de datos",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chuarchenaguer/2DAM.git"
+  },
+  "author": "Carlos Garcés Sánchez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chuarchenaguer/2DAM/issues"
+  },
+  "homepage": "https://github.com/Chuarchenaguer/2DAM#readme"
+}
