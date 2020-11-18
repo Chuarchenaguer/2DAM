@@ -14,9 +14,9 @@
     <div id='step-1' class='step-container'></div>
     <div id='step-2'>Segundo div
         <form id="formulario">
-            <p>Nombre: <input name="nombre" size="40" type="text" /></p>
+            <p>Nombre: <input name="nombre" size="40" type="text" required pattern="[A-Za-z]{1,}"/></p>
           
-            <p>A&ntilde;o de nacimiento: <input min="1900" name="nacido" type="number" /></p>
+            <p>A&ntilde;o de nacimiento: <input min="1900" name="nacido" type="number" required/></p>
           
             <p>Sexo: <input name="hm" type="radio" value="h" /> Hombre <input name="hm" type="radio" value="m" /> Mujer</p>
           
